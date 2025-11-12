@@ -3,10 +3,7 @@
     let hideDone = false;
 
     const addTask = (taskInput) => {
-        tasks.push({
-            content: taskInput,
-        });
-
+        tasks = [...tasks, { content: taskInput }];
         render();
     };
 
