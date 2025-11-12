@@ -1,0 +1,51 @@
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list__taskBody {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.list__taskContent--done {
+    text-decoration: line-through;
+}
+
+.list__taskButton {
+    color: white;
+    border: none;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+}
+
+.list__taskButton--checkMark {
+    background-color: #0a8127;
+}
+
+.list__taskButton--checkMark:hover {
+    background-color: #0b982f;
+}
+
+.list__taskButton--checkMark:active {
+    background-color: #0daf36;
+}
+
+.list__taskButton--delete {
+    background-color: #e42121;
+}
+
+.list__taskButton--delete:hover {
+    background-color: #e63737;
+}
+
+.list__taskButton--delete:active {
+    background-color: #e94e4e;
+}
