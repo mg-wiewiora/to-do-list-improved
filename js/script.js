@@ -68,16 +68,14 @@
         const taskHTMLContent = task => `
             <li class="list__taskBody${task.done && hideDone ? " list__taskBody--hidden" : ""} js-task">
               <button class="list__taskButton list__taskButton--checkMark js-done">
-               ${task.done ? "✓" : ""}
-              </button> 
-              <span class="list__taskContent${task.done ? " list__taskContent--done" : ""}">
-               ${task.content}</span>
-              <button class="list__taskButton list__taskButton--delete js-delete">
-              🗑
+              ${task.done ? "✓" : ""}
               </button>
+              <span class="list__taskContent${task.done ? " list__taskContent--done" : ""}">${task.content}</span>
+              <button class="list__taskButton list__taskButton--delete js-delete">
+              🗑</button>
              </li>
            `;
-        const ListContent = document.querySelector(".js-taskList")
+        const ListContent = document.querySelector(".js-taskList");
         ListContent.innerHTML = tasks.map(taskHTMLContent).join("");
     };
 
