@@ -4,6 +4,22 @@
     box-shadow: 0 0 5px #ddd;
 }
 
+.section__menuContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 767px) {
+    .section__menuContainer {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    }
+}
+
 .section__title {
     border-bottom: 1px solid #ddd;
     padding: 20px;

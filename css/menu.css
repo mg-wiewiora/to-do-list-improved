@@ -6,11 +6,20 @@
 .menu__button {
     border: none;
     background-color: white;
-    color: rgb(71, 44, 44);
+    color: rgb(83, 49, 49);
     font-weight: bold;
     margin: 0 0 0 20px;
+    padding: 5px;
     transition: 0.5s;
 }
+
+@media (max-width: 767px) {
+    .menu__button {
+        flex-basis: 100%;
+        margin: 10px;
+    }
+}
+
 
 .menu__button:hover {
     color: teal;
@@ -18,4 +27,8 @@
 
 .menu__button:active {
     color: hsl(180, 100%, 30%);
+}
+
+.menu__button:disabled {
+    color: #888;
 }

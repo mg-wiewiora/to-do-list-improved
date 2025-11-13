@@ -50,9 +50,9 @@
 }
 
 .list__taskButton--delete:hover {
-    background-color: #e63737;
+    background-color: hsl(0, 78%, 58%);
 }
 
 .list__taskButton--delete:active {
-    background-color: #e94e4e;
+    background-color: hsl(0, 78%, 63%);
 }

@@ -85,7 +85,7 @@
         if (!tasks.length) {
             menuContent.innerHTML = "";
             return;
-        };
+        }
 
         menuContent.innerHTML = `
         <button class="menu__button js-toggleHideDone">
