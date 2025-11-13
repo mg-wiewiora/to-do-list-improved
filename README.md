@@ -1,4 +1,4 @@
-# 📝 To-Do List
+# To-Do List
 
 > This is a functional and fully interactive **To-Do List** application. It was developed to master key concepts in **JavaScript DOM manipulation** and modern **CSS layout techniques**.
 >
