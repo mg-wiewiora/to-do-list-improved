@@ -9,8 +9,8 @@
     grid-template-columns: auto auto;
     grid-gap: 20px;
     align-items: center;
-    justify-content: space-around;
     border-bottom: 1px solid #ddd;
+    justify-content: center;
 }
 
 @media (max-width: 767px) {
