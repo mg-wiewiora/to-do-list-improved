@@ -113,7 +113,13 @@
         }
     };
 
-    triggerEvents();
+    const render = () => {
+        renderTask();
+        triggerEvents();
+        showMenu();
+        triggerMenuEvents();
+    };
+
 
     const onFormSubmit = (event) => {
         event.preventDefault();
